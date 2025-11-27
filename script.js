@@ -6,13 +6,13 @@ function contarclick(){
     const contador=document.getElementById("contador");
     contador.textContent= "parabens voce clicou "+ computador+" vezes";
     if (computador > 50){
-   contador.textContent= "vc passou de 50";
+   contador.textContent= "vc passou de "+computador ;
 }
 else if (computador >30){
-   contador.textContent= "vc passou de 30";
+   contador.textContent= "vc passou de "+computador;
 }
     else if (computador > 15) {
-        contador.textContent= "vc passou de 15";
+        contador.textContent= "vc passou de "+computador;
     }
 }
 
